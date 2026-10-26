@@ -1,9 +1,7 @@
-from src.tools.tools import web_search, scrape_url
+
+from src.pipelines.pipeline import run_research_pipeline
+
+topic = "The impact of AI on the job market in 2026"
+run_research_pipeline(topic)
 
 
-# results = _scrape_url_func("https://www.bbc.com/technology/artificial-intelligence")
-# print(results)
-
-
-r = web_search.run("what is the latest research on using AI for climate chnage mitigation")
-print(r)

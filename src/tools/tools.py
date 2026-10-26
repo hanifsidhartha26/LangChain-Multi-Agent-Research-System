@@ -90,7 +90,7 @@ def scrape_url(url: str) -> str:
 
         if text and len(text.strip()) > 200:
             cleaned = re.sub(r'\s+', ' ', text)
-            return cleaned[:5000]
+            return cleaned[:700]
 
         
 
