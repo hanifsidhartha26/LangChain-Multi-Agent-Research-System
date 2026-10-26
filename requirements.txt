@@ -1,11 +1,13 @@
 # core llm+ langchain ecosystem
-
+# core llm+ langchain ecosystem
 langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-community>=0.2.0
 langchain-openai>=0.1.0
 streamlit>=1.0.0
-langchain-gemini>=0.1.0
+langchain-google-genai
+
+
 
 
 #travily search tool
@@ -21,4 +23,5 @@ lxml>=4.9.3
 
 
 #environment variables
-python-dotenv>=1.0.0
+python-dotenv
+rich>=14.0.0
